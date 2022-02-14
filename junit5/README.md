@@ -4,9 +4,8 @@
     * 用法
     * 拓展性，二次开发
   * 多环境如何执行
-  * allure step可以传递参数吗？
-  * 测试类的自定义顺序？必须配置文件声明之后才能使用order？
-    * 必须在properties中定义排序规则，才能在方法上使用@order？
+  * ~~allure step可以传递参数吗？~~
+    * 可以，直接在方法添加注解@Step,pom文件配置argLine：aspectjweaver
   * testinfo
   * 学过的东西容易遗忘
 **目录 (Table of Contents)**
@@ -156,7 +155,7 @@ public class ParamDemoTest {
   [SpecialParamTest](./junit5-basics/src/test/java/org/study/demo/param/SpecialParamTest.java)
 
 ### 7.Junit5 执行排序
-#### 1>》方法排序
+#### 1>方法排序
 * OrderAnnotation（重点）	@Order 注解指定排序
   *   [MethodOrderTest](./junit5-basics/src/test/java/org/study/demo/order/method/MethodOrderTest.java)
 * DisplayName	根据显示名称排序
@@ -297,6 +296,15 @@ mvn clean test -DexcludedGroups="test"
 [ExcludePackagesTest](./junit5-basics/src/test/java/org/study/demo/suite/ExcludePackagesTest.java)   
 [IncludeClassNamePatternsTest](./junit5-basics/src/test/java/org/study/demo/suite/IncludeClassNamePatternsTest.java)   
 [IncludeTagsTest](./junit5-basics/src/test/java/org/study/demo/suite/IncludeTagsTest.java)   
+### 13.Junit5动态测试
+* @TestFactory实现
+* 没有beforeeach/beforeall概念
+* 返回DynamicTest集合
+[DynamicDemoTest](./junit5-basics/src/test/java/org/study/demo/dynamic/DynamicDemoTest.java)
+#### 实例：ShellTest+SumTest
+[ShellTest](./junit5-practice/src/test/java/org/study/practice/dynamic/ShellDynamicTest.java)
+[SumTest](./junit5-practice/src/test/java/org/study/practice/dynamic/SumDynamicTest.java)
+
 ## Junit5-调度执行
 ### 1.命令行执行
 #### 1>执行当前项目下的所有测试
@@ -361,6 +369,41 @@ mvn test -Dtest=包名.类名#方法名1+方法名2
 <exclude>包名/*Test.class</exclude>
 <exclude>*Suite*Test</exclude>
 ```
+## Junit5-并行测试
+```properties
+junit.jupiter.execution.parallel.enabled = true
+
+junit.jupiter.execution.parallel.mode.default = concurrent
+
+junit.jupiter.execution.parallel.mode.classes.default = same_thread
+
+junit.jupiter.execution.parallel.config.strategy=fixed
+
+junit.jupiter.execution.parallel.config.fixed.parallelism=8
+```
+### 区分dynamic、fixed、custom
+```
+junit.jupiter.execution.parallel.config.strategy=fixed
+1、dynamic：默认选项 在不设置系数的情况下 并行度将等于可用处理器/核的数量
+dynamic对应的系数配置项为：junit.jupiter.execution.parallel.config.dynamic.factor
+并发线程数为 系数*可用处理器/核的数量
+
+2、fixed：固定线程数设置
+搭配为：junit.jupiter.execution.parallel.config.fixed.parallelism
+并发线程数为 设置的junit.jupiter.execution.parallel.config.fixed.parallelism的value值
+
+3、custom ：自定义
+通过实现接口 ParallelExecutionConfigurationStrategy来配置并行的线程池数量
+Allows you to specify a custom ParallelExecutionConfigurationStrategy implementation via the mandatory junit.jupiter.execution.parallel.config.custom.class configuration parameter to determine the desired configuration.
+```
+### 并行策略
+![](./images/并行.webp)
+### 并行 vs TestClassOrder
+[MethodDisplayNameTest](./junit5-practice/src/test/java/org/study/practice/parallel/MethodDisplayNameTest.java)
+```properties
+#默认排序方式为通过DisplayName排序--此配置优先级高于并行开关
+junit.jupiter.testmethod.order.default = org.junit.jupiter.api.MethodOrderer$DisplayName
+```
 ## Junit5-高级断言
 ### 1.集中断言
 [CalculatorTest](./junit5-basics/src/test/java/org/study/demo/assSuper/CalculatorTest.java)
@@ -377,6 +420,9 @@ mvn test -Dtest=包名.类名#方法名1+方法名2
 #### 2>实例
 [AssertTest](./hamcrest/src/test/java/org/study/hamcrest/AssertTest.java)
 ## Junit5-数据驱动
+[数据驱动](./junit5-datadriven/src/test/java/org/study/datadriven)
+### yaml数据驱动实例：计算器求和
+[sumTestByYaml](./junit5-practice/src/test/java/org/study/practice/nums/SumTest.java)
 
 ## Junit5-Allure
 [allure官网](https://www.allure.com/)
@@ -411,13 +457,81 @@ allure generate <allure-result中间文件>  -o   输出目录 (默认路径：a
 [@Severity](./allure/src/test/java/org/study/demo/AllureSeverityTest.java)     
 [@Feature](./allure/src/test/java/org/study/demo/AllureFeatureTest.java)     
 [@Step](./allure/src/test/java/org/study/demo/AllureStepTest.java)    
-### 5.Allure其他
+### 5.Allure 报告地址
+#### 1>方法一：
+allure.properties文件
+```properties
+allure.results.directory=target/allure-results
+```
+#### 2>方法二：
+pom文件
+```xml
+<configuration>
+  <argLine>
+    -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+  </argLine>
+  <!--生成allure-result的目录-->
+  <systemProperties>
+    <property>
+      <name>allure.results.directory</name>
+      <value>./target/allure-results</value>
+    </property>
+  </systemProperties>
+</configuration>
+```
+### 6.Allure其他
 #### 1>添加附件
-[AllureAttachmentTest](./allure/src/test/java/org/study/demo/AllureAttachmentTest.java)    
+[AllureAttachmentTest](./allure/src/test/java/org/study/demo/AllureAttachmentTest.java)
+#### 2>修改logo
+```
+进入allure文件目录,通过 where allure或者which allure查看具体路径
+where allure
+/usr/local/bin/allure
+在allure.yml 文件添加 - custom-logo-plugin
+文件路径：/usr/local/Cellar/allure/2.13.9/libexec/config
+文件原内容为:
+
+plugins:
+  - junit-xml-plugin
+  - xunit-xml-plugin
+  - trx-plugin
+  - behaviors-plugin
+  - packages-plugin
+  - screen-diff-plugin
+  - xctest-plugin
+  - jira-plugin
+  - xray-plugin
+更新为:
+
+plugins:
+  - junit-xml-plugin
+  - xunit-xml-plugin
+  - trx-plugin
+  - behaviors-plugin
+  - packages-plugin
+  - screen-diff-plugin
+  - xctest-plugin
+  - jira-plugin
+  - xray-plugin
+  - custom-logo-plugin
+进入logo配置路径下
+/usr/local/Cellar/allure/2.13.9/libexec/plugins/custom-logo-plugin/static
+编辑styles.css
+custom-logo.svg 为默认logo，自行更新logo即可，有需求的同学也可对css样式进行设置
+例如：
+
+.side-nav__brand {
+  background: url('logo.png') no-repeat left center !important;
+  margin-left: 10px;
+  height:40px;
+}
+.side-nav__brand-text{
+  /* 去掉图片后边 allure 文本 */
+  display: none; 
+}
+```
 ## 实战练习
-[practice](./junit5-practice)    
-
-
+[practice](./junit5-practice)
 ## other
 git config --global http.proxy "localhost:port"
 git config --global --unset http.proxy

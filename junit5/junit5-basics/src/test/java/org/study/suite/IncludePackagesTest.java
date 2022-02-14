@@ -1,4 +1,4 @@
-package org.study.demo.suite;
+package org.study.suite;
 
 import org.junit.platform.suite.api.IncludePackages;
 import org.junit.platform.suite.api.SelectPackages;

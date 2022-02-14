@@ -1,5 +1,8 @@
 package org.study.practice.nums;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -8,7 +11,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.study.practice.base.CalBase;
+import org.study.practice.entity.SumData;
+import org.study.practice.entity.SumDatas;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -61,4 +70,45 @@ public class SumTest extends CalBase {
                 arguments(1,-100)
                 );
     }
+
+
+    /**
+     *  yaml 数据驱动
+     */
+    @ParameterizedTest(name = "{0} 加 {1} 等于 {2}")
+    @MethodSource("selectSumDatas")
+    void sumTestByYaml(int a ,int b, int expect ,String message){
+
+        if (message.startsWith("无效")){
+            IllegalArgumentException expection = Assertions.assertThrows(IllegalArgumentException.class, () -> calculator.sum(a, b));
+            assertTrue(expection.getMessage().contains("请输入范围内的整数"));
+        }else {
+            result = calculator.sum(a, b);
+            assertEquals(expect,result,message);
+        }
+    }
+
+    static Stream<Arguments> selectSumDatas() {
+        ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
+        //为了正常的处理我们声明的日期
+        objectMapper.findAndRegisterModules();
+        TypeReference<SumDatas> typeReference =
+                new TypeReference<>() {};
+        SumDatas sumDatas = null;
+        try {
+            sumDatas  = objectMapper.readValue(new File("src/test/resources/sumdatas.yaml"), typeReference);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        List<SumData> datas = sumDatas.getDatas();
+
+        List<Arguments> argumentsList = new ArrayList<>();
+        datas.forEach(data->{
+            Arguments arguments = arguments(data.getA(), data.getB(), data.getResult(), data.getMessage());
+            argumentsList.add(arguments);
+        });
+
+        return argumentsList.stream();
+    }
+
 }

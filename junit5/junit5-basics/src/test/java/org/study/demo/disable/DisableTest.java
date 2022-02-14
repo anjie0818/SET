@@ -8,7 +8,7 @@ public class DisableTest {
     @Disabled("until bug #99 fixed")
     @Test
     void testSkip(){
-        System.out.println("----testSkip2----");
+        System.out.println("----testSkip----");
     }
     @Test
     void testSkip2(){
