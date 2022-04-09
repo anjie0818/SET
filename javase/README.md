@@ -227,4 +227,4 @@ public class Test {
 [code](./src/main/java/org/study/stream流/Test1.java)
 ### Map、Collection、Array获取流
 [code](./src/main/java/org/study/stream流/Test2.java)
-
+### Stream流常用方法

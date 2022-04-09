@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite${env}" parallel="methods" thread-count="3">
+    <parameter name="username" value="value1"/>
+  <test name="Auto-Selenium">
+    <classes>
+      <!--<class name="com.selenium.mukePageObject.testCase.CourseCase"></class>-->
+      <!--<class name="com.selenium.mukePageObject.testCase.loginCase"></class>-->
+      <class name="com.selenium.ahic.AHBaseDriver"/>
+    </classes>
+  </test> <!-- Auto-Selenium -->
+    <listeners>
+      <!--
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+      <!-- <listener class-name='com.jwen.test.testngTest.MyReporterListener'/> -->
+      <listener class-name='com.selenium.testngReport.CustomReportListener'/>
+  </listeners>
+</suite> <!-- Default Suite -->
