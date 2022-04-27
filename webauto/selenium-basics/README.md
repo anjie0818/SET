@@ -1,5 +1,5 @@
 ？？？
-???
+???1
 selenium 优化点、并行执行
 ## selenium架构
 ![](./image/selenium架构.png)
