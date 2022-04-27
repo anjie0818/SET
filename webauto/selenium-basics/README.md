@@ -1,3 +1,5 @@
+？？？
+selenium 优化点、并行执行
 ## selenium架构
 ![](./image/selenium架构.png)
 ### 核心组件
@@ -11,6 +13,12 @@
   * [安装地址](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/)
 * 安装selenium-client
 * 安装selenium ide
+## selenium grid
+![](https://www.selenium.dev/images/documentation/grid/components.png)
+[环境搭建-官网示例](https://github.com/SeleniumHQ/docker-selenium#quick-start)
+### 什么时候应该使用Grid？
+* 缩短完成测试的时间
+* 在多种浏览器，多种版本的浏览器，不同操作系统里的浏览器里执行你的测试
 ## selenium ide
 ### 下载、安装
 Chrome插件： https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjndioackbalphokd   
