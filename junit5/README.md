@@ -448,6 +448,7 @@ allure --help 帮助
 allure --version 查看版本信息  
 allure serve  生成在线版本的测试
 allure generate <allure-result中间文件>  -o   输出目录 (默认路径：allure-report)
+allure open <directory-with-report> 打开报告使用默认浏览器
 ```
 ### 4.Allure 基本用法
 ![](./images/allure用法.png)
@@ -455,8 +456,17 @@ allure generate <allure-result中间文件>  -o   输出目录 (默认路径：a
 [@DisplayName](./allure/src/test/java/org/study/demo/AllureDisplayNameTest.java)     
 [@Link](./allure/src/test/java/org/study/demo/AllureLinkTest.java)     
 [@Severity](./allure/src/test/java/org/study/demo/AllureSeverityTest.java)     
-[@Feature](./allure/src/test/java/org/study/demo/AllureFeatureTest.java)     
+[@Feature/Epic/Stories](./allure/src/test/java/org/study/demo/AllureFeatureTest.java)     
 [@Step](./allure/src/test/java/org/study/demo/AllureStepTest.java)    
+[@Attachment](./allure/src/test/java/org/study/demo/AllureAttachmentTest.java)
+[Environment](./allure/allure-results/environment.properties)
+[Categories](./allure/allure-results/categories.json)
+  ```
+  name：分类名称
+  matchedStatuses：测试用例的运行状态，默认["failed", "broken", "passed", "skipped", "unknown"]
+  messageRegex：测试用例运行的错误信息，默认.* ，通过正则匹配
+  traceRegex：测试用例运行的错误堆栈信息，默认.*  ，通过正则匹配
+  ```  
 ### 5.Allure 报告地址
 #### 1>方法一：
 allure.properties文件
@@ -479,10 +489,11 @@ pom文件
   </systemProperties>
 </configuration>
 ```
-### 6.Allure其他
-#### 1>添加附件
-[AllureAttachmentTest](./allure/src/test/java/org/study/demo/AllureAttachmentTest.java)
-#### 2>修改logo
+### ???测试报告趋势图没有展示TREND???
+### 7.Allure插件
+[官方文档](https://docs.qameta.io/allure-report/plugins/overview)
+[官方插件code](https://github.com/allure-framework/allure2/tree/master/plugins)
+#### 1>修改logo
 ```
 进入allure文件目录,通过 where allure或者which allure查看具体路径
 where allure

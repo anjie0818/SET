@@ -1,10 +1,12 @@
 package org.study.demo;
 
+import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.Test;
 
-@Feature("登录")
+@Feature("登录Feature")
+@Epic("登录Epic")
 public class AllureFeatureTest {
 
     @Test

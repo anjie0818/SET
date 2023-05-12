@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/java-jvm/pom.xml" />
         <option value="$PROJECT_DIR$/algorithm/pom.xml" />
         <option value="$PROJECT_DIR$/Algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/junit5/allure/pom.xml" />
+        <option value="$PROJECT_DIR$/junit5/junit5-practice/pom.xml" />
       </list>
     </option>
   </component>

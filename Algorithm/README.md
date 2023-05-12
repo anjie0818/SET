@@ -1,4 +1,4 @@
-
+* todo递归遍历方式，前序/中序/后续
 ## 第三章：数组中的问题其实最常见
 * 排序：选择排序、插入排序、归并排序、快速排序
 * 查找：二分查找
@@ -33,6 +33,52 @@ https://leetcode.cn/problems/longest-substring-without-repeating-characters/
 [IntersectionOfTwoArrays](./src/main/java/org/example/four/IntersectionOfTwoArrays/Solution.java)
 ###  map的使用 Intersection of Two Arrays II
 * 350  Intersection of Two Arrays II
+[IntersectionOfTwoArraysII](./src/main/java/org/example/four/IntersectionOfTwoArraysII/Solution.java)
+### 使用查找表的经典问题 Two Sum
+* 1 https://leetcode.com/problems/two-sum/description/ 15 3sum 18 16
+[twoSum](./src/main/java/org/example/four/twoSum/Solution.java)
+### 灵活选择键值 4Sum II
+* 454 扩展 49
+[fourSum](./src/main/java/org/example/four/fourSum/Solution.java)
+### 灵活选择键值 Number of Boomerangs
+* 447 扩展149
+![](./images/447.png)
+[numberOfBoomerangs](./src/main/java/org/example/four/numberOfBoomerangs/Solution.java)
+### 查找表和滑动窗口 Contain Duplicate II
+* 219 扩展 217
+[ContainsDuplicateII](./src/main/java/org/example/four/ContainsDuplicateII/Solution.java)
+### 二分搜索树底层实现的顺序性 Contain Duplicate III
+* 220 扩展 217
+[ContainsDuplicateII](./src/main/java/org/example/four/ContainDuplicateIII/Solution.java)
+## 第5章 在链表中穿针引线
+### 5-1 链表，在节点间穿针引线 Reverse Linked List
+* 206 扩展 92
+[reverseLinkedList](./src/main/java/org/example/five/reverseLinkedList/Solution.java)
+### 5-2 测试你的链表程序
+* 扩展 86、328、2、445、
+## 第七章：二叉树和递归
+* 完全二叉树
+  * 除最后一层，所有层的节点数达到最大，于此同时最后一层所有节点都在最左侧
+* 满二叉树
+  * 所有层的节点数达到最大
+* 平衡二叉树
+  * 每一个节点的左右子树的高度差不超过1
+
+### 7-1 二叉树天然的递归结构
+* 104 Maximum Depth of Binary Tree
+[MaximumDepth](./src/main/java/org/example/seven/maximumDepth/Solution.java)
+* 扩展 111
+### 7-2 一个简单的二叉树问题引发的血案 Invert Binary Tree
+* 226 Invert Binary Tree
+[invertTree](./src/main/java/org/example/seven/invertTree/Solution.java)
+* 扩展 100、222、110
+### 7-4 注意递归的终止条件 Path Sum
+* 112 Path Sum
+[pathSum](./src/main/java/org/example/seven/pathSum/Solution.java)
+
+* 扩展 111、404
+
+
 ## 第八章：递归与回溯
 ### 组合
 [combine](./src/main/java/org/example/egiht/combine/Solution.java)
