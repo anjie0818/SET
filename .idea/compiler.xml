@@ -6,15 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="datadriven" />
         <module name="javathread" />
-        <module name="Algorithm" />
-        <module name="allure" />
         <module name="junit5-practice" />
         <module name="java-jvm" />
+        <module name="hamcrest" />
+        <module name="Algorithm" />
+        <module name="allure" />
+        <module name="junit5-basics" />
+        <module name="testng-basics" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="my-allure-plugin" target="11" />
+      <module name="testng" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

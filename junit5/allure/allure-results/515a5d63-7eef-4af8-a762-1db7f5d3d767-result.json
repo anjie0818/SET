@@ -1,0 +1,65 @@
+{
+  "uuid": "515a5d63-7eef-4af8-a762-1db7f5d3d767",
+  "historyId": "dd092e7b5c3ef99d2c5d91fa7cdbe5ec",
+  "fullName": "org.study.demo.AllureFeatureTest.method1",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:org.study.demo.AllureFeatureTest]/[method:method1()]"
+    },
+    {
+      "name": "epic",
+      "value": "登录Epic"
+    },
+    {
+      "name": "feature",
+      "value": "登录Feature"
+    },
+    {
+      "name": "story",
+      "value": "登录成功"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "org.study.demo.AllureFeatureTest"
+    },
+    {
+      "name": "testClass",
+      "value": "org.study.demo.AllureFeatureTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "method1"
+    },
+    {
+      "name": "suite",
+      "value": "org.study.demo.AllureFeatureTest"
+    }
+  ],
+  "links": [],
+  "name": "method1()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212382872,
+  "stop": 1683212382874
+}

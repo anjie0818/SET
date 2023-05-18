@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 绑定变量 msg -->
+        <input type="text" v-model="msg">
+        <!-- 显示 msg 的值，与输入框同步更新 -->
+        <h2>{{msg}}</h2>
+        <!-- 使用 v-html 绑定原生的 HTML 代码 -->
+        <span v-html="rawHtml"></span>
+        <!-- 使用 JavaScript 表达式 -->
+        <div>{{ ok ? 'YES' : 'NO' }}</div>
+        <!-- 在事件之后进行同步 -->
+        <input type="text" v-model.lazy="lazy">
+        <h2>{{lazy}}</h2>
+        <br>
+        <!-- 把用户的输入转换为数值类型 
+        typeof 用来区分数据类型，这里用来显示 number 这个变量值的类型-->
+        <input type="text" v-model.number="number">
+        <h2>{{typeof number}}</h2>
+        <!-- 自动过滤首尾的空格 -->
+        <input type="text" v-model.trim="trim">
+        <h2>{{trim}}</h2>
+    </div>
+    
+</body>
+</html>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            msg: '',
+            // 原生 HTML 代码块
+            rawHtml:'<span style="color:red">这里是红色的</span>',
+            ok: '1',
+            lazy: '',
+            number: '',
+            trim: ''
+        }
+    })
+</script>

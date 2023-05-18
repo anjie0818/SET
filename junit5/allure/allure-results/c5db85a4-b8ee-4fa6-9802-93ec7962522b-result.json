@@ -1,0 +1,53 @@
+{
+  "uuid": "c5db85a4-b8ee-4fa6-9802-93ec7962522b",
+  "historyId": "3ca38c28c2cb8574347e40e476047170",
+  "fullName": "nest.NestExampleTest$AuthorityManagment.test111",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:nest.NestExampleTest]/[nested-class:AuthorityManagment]/[method:test111()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "nest.NestExampleTest$AuthorityManagment"
+    },
+    {
+      "name": "testClass",
+      "value": "nest.NestExampleTest$AuthorityManagment"
+    },
+    {
+      "name": "testMethod",
+      "value": "test111"
+    },
+    {
+      "name": "suite",
+      "value": "nest.NestExampleTest.AuthorityManagment"
+    }
+  ],
+  "links": [],
+  "name": "test111()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212383856,
+  "stop": 1683212383857
+}

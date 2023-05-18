@@ -1,0 +1,103 @@
+{
+  "uid" : "9ff37adc95f583ff",
+  "name" : "method1()",
+  "fullName" : "org.study.demo.AllureAttachmentTest.method1",
+  "historyId" : "d0cccdf76657513351f521175932f676",
+  "time" : {
+    "start" : 1683190447469,
+    "stop" : 1683190447482,
+    "duration" : 13
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ecbff98b8050eece",
+      "name" : "My attachment",
+      "source" : "ecbff98b8050eece.txt",
+      "type" : "text/plain",
+      "size" : 21
+    }, {
+      "uid" : "56d8cc7065e22348",
+      "name" : "add picture",
+      "source" : "56d8cc7065e22348.png",
+      "type" : "image/jpg",
+      "size" : 720486
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.study.demo.AllureAttachmentTest]/[method:method1()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37902@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.study.demo.AllureAttachmentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.study.demo.AllureAttachmentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "method1"
+  }, {
+    "name" : "suite",
+    "value" : "org.study.demo.AllureAttachmentTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce2c6c741ff96dc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683189998333,
+        "stop" : 1683189998364,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "d43061c2e7321f39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683184354563,
+        "stop" : 1683184354573,
+        "duration" : 10
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped", "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ff37adc95f583ff.json",
+  "parameterValues" : [ ]
+}

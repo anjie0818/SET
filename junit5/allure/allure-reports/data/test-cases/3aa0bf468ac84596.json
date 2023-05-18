@@ -1,0 +1,67 @@
+{
+  "uid" : "3aa0bf468ac84596",
+  "name" : "method3()",
+  "fullName" : "org.study.demo.AllureFeatureTest.method3",
+  "historyId" : "fa7fde37e54fd0e1c4636a35e103f28a",
+  "time" : {
+    "start" : 1683189997589,
+    "stop" : 1683189997591,
+    "duration" : 2
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.study.demo.AllureFeatureTest]/[method:method3()]"
+  }, {
+    "name" : "epic",
+    "value" : "登录Epic"
+  }, {
+    "name" : "feature",
+    "value" : "登录Feature"
+  }, {
+    "name" : "story",
+    "value" : "登录失败"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37599@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.study.demo.AllureFeatureTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.study.demo.AllureFeatureTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "method3"
+  }, {
+    "name" : "suite",
+    "value" : "org.study.demo.AllureFeatureTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3aa0bf468ac84596.json",
+  "parameterValues" : [ ]
+}

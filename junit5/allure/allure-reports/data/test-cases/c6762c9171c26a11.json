@@ -1,0 +1,80 @@
+{
+  "uid" : "c6762c9171c26a11",
+  "name" : "test222()",
+  "fullName" : "nest.NestExampleTest.test222",
+  "historyId" : "3e3271769374b69e762623bd25c932b3",
+  "time" : {
+    "start" : 1683190447535,
+    "stop" : 1683190447536,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:nest.NestExampleTest]/[method:test222()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37902@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "nest.NestExampleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "nest.NestExampleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test222"
+  }, {
+    "name" : "suite",
+    "value" : "nest.NestExampleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "29f6e0872379bd5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683189998567,
+        "stop" : 1683189998567,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e7590e5230121745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683184354626,
+        "stop" : 1683184354627,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped", "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c6762c9171c26a11.json",
+  "parameterValues" : [ ]
+}

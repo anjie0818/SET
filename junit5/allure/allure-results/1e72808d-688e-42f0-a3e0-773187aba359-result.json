@@ -1,0 +1,80 @@
+{
+  "uuid": "1e72808d-688e-42f0-a3e0-773187aba359",
+  "historyId": "6f6fa0932af73c7f1b0275bfa07caa45",
+  "fullName": "org.study.demo.AllureStepTest1.lambdaStepTest",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:org.study.demo.AllureStepTest1]/[method:lambdaStepTest()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "org.study.demo.AllureStepTest1"
+    },
+    {
+      "name": "testClass",
+      "value": "org.study.demo.AllureStepTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "lambdaStepTest"
+    },
+    {
+      "name": "suite",
+      "value": "org.study.demo.AllureStepTest1"
+    }
+  ],
+  "links": [],
+  "name": "lambdaStepTest()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [
+    {
+      "name": "Parent lambda step with parameter [parameter value]",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Nested lambda step with global parameter [global value]",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1683212382990,
+          "stop": 1683212382990
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "parameter",
+          "value": "parameter value"
+        }
+      ],
+      "start": 1683212382983,
+      "stop": 1683212382991
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212382979,
+  "stop": 1683212382991
+}

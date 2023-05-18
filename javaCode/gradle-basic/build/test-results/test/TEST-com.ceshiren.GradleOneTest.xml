@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ceshiren.GradleOneTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-22T03:56:49" hostname="3c22fbe41d21" time="0.015">
+  <properties/>
+  <testcase name="third()" classname="com.ceshiren.GradleOneTest" time="0.015"/>
+  <system-out><![CDATA[这是第3个测试用例
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

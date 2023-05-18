@@ -1,0 +1,53 @@
+{
+  "uuid": "97116f54-15c6-47f8-8d64-04e8bb767c5e",
+  "historyId": "7cd5edcd22bf41a1c23c381d68750e02",
+  "fullName": "org.study.demo.AllureDescriptionTest.dynamicDescriptionTest",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:org.study.demo.AllureDescriptionTest]/[method:dynamicDescriptionTest()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "org.study.demo.AllureDescriptionTest"
+    },
+    {
+      "name": "testClass",
+      "value": "org.study.demo.AllureDescriptionTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "dynamicDescriptionTest"
+    },
+    {
+      "name": "suite",
+      "value": "org.study.demo.AllureDescriptionTest"
+    }
+  ],
+  "links": [],
+  "name": "dynamicDescriptionTest()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "dynamicDescriptionTest",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212382927,
+  "stop": 1683212382929
+}

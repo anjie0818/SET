@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 如果 v-if 值为 true，这个标签中的内容就会展示 
+        v-if 的值既可以是变量也可以是表达式，但是它的结果必须为布尔值 true 或者 false-->
+        <h1 v-if="isShow">isShow is true</h1>
+        <!-- 表达式为 false 的时候展示 v-else 元素中的内容 -->
+        <h1 v-else>isShow is false</h1>
+        <template v-if="isShow">
+            <p>段落1</p>
+            <p>段落2</p>
+        </template>
+        <div v-show="isShow">true 可以显示</div>
+    </div>
+</body>
+</html>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data:{
+            isShow: false,
+        }
+    })
+</script>

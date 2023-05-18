@@ -1,0 +1,114 @@
+{
+  "total" : 13,
+  "items" : [ {
+    "uid" : "82b05881da55987ff80c94414252db43",
+    "name" : "org.study.demo.AllureLinkTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "1b2258e50fb6f81b5775e1a2bad1c886",
+    "name" : "org.study.demo.AllureFeatureTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d85602d74b398c7cf1fa94632017063c",
+    "name" : "org.study.demo.AllureDescriptionTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "83e5fde2c3a2ff63b2b55625a0a662f1",
+    "name" : "org.study.demo.AllureStepTest1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "3c7869e9ef65f05fc938a8cacdd4d8ff",
+    "name" : "org.study.demo.AllureSeverityTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0a009f10eb3295c239a4c7ffc9b6def9",
+    "name" : "org.study.demo.AllureAttachmentTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "7b0385f57b37b715562ce00a59602b76",
+    "name" : "org.study.demo.AllureStepTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "afe010ffa733dd785b11ffeb12750269",
+    "name" : "org.study.demo.AllureDisplayNameTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d2848a00d1bfc6648027d25422f03f5e",
+    "name" : "nest.NestExampleTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a96be5a5949fca272c141be0c876b80d",
+    "name" : "nest.NestExampleTest.DataManagement.CreditScore.MortgageScore",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

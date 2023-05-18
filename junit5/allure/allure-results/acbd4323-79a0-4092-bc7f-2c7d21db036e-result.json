@@ -1,0 +1,68 @@
+{
+  "uuid": "acbd4323-79a0-4092-bc7f-2c7d21db036e",
+  "historyId": "97fdcf89968fe62a855167c714e56024",
+  "fullName": "org.study.demo.AllureLinkTest.method5",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:org.study.demo.AllureLinkTest]/[method:method5()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "org.study.demo.AllureLinkTest"
+    },
+    {
+      "name": "testClass",
+      "value": "org.study.demo.AllureLinkTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "method5"
+    },
+    {
+      "name": "suite",
+      "value": "org.study.demo.AllureLinkTest"
+    }
+  ],
+  "links": [
+    {
+      "name": "test-1",
+      "url": "https://example.org/tms/test-1",
+      "type": "tms"
+    },
+    {
+      "name": "test-2",
+      "url": "https://example.org/tms/test-2",
+      "type": "tms"
+    },
+    {
+      "name": "动态链接",
+      "url": "http://www.baidu.com"
+    }
+  ],
+  "name": "method5()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212382830,
+  "stop": 1683212382831
+}

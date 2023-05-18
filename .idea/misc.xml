@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/Algorithm/pom.xml" />
         <option value="$PROJECT_DIR$/junit5/allure/pom.xml" />
         <option value="$PROJECT_DIR$/junit5/junit5-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/junit5/junit5-datadriven/pom.xml" />
+        <option value="$PROJECT_DIR$/junit5/junit5-basics/pom.xml" />
+        <option value="$PROJECT_DIR$/junit5/hamcrest/pom.xml" />
+        <option value="$PROJECT_DIR$/testng/pom.xml" />
       </list>
     </option>
   </component>

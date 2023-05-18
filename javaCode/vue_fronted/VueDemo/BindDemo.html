@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 指定样式
+        通过 css 指定，width 宽，height 高 
+        border 边框 solid 实线 #000 黑色 -->
+        <div style="width: 100px; height: 100px; border: 1px solid #000" v-bind:style="bgcolor"></div>
+        <!-- 绑定超链接 -->
+        <a :href="baidu">访问百度</a>
+    </div>
+</body>
+</html>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            // 设置图形背景色
+            bgcolor:{
+                backgroundColor: 'red'
+            },
+            // 绑定超链接为百度首页
+            baidu: 'https://www.baidu.com'
+
+        }
+    })
+</script>

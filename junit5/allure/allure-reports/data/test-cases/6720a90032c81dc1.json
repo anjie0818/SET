@@ -1,0 +1,151 @@
+{
+  "uid" : "6720a90032c81dc1",
+  "name" : "someTest()",
+  "fullName" : "org.study.demo.AllureStepTest.someTest",
+  "historyId" : "f6b2729c262b3caaecb98b5d6b8c3712",
+  "time" : {
+    "start" : 1683190447519,
+    "stop" : 1683190447524,
+    "duration" : 5
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1",
+      "time" : {
+        "start" : 1683190447521,
+        "stop" : 1683190447521,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Step1",
+        "time" : {
+          "start" : 1683190447521,
+          "stop" : 1683190447521,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "步骤2",
+      "time" : {
+        "start" : 1683190447523,
+        "stop" : 1683190447524,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Step2",
+        "time" : {
+          "start" : 1683190447523,
+          "stop" : 1683190447523,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.study.demo.AllureStepTest]/[method:someTest()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37902@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.study.demo.AllureStepTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.study.demo.AllureStepTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "someTest"
+  }, {
+    "name" : "suite",
+    "value" : "org.study.demo.AllureStepTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c10571230d19dc92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683189998483,
+        "stop" : 1683189998507,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "886fafa06d35d724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683184354607,
+        "stop" : 1683184354610,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped", "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6720a90032c81dc1.json",
+  "parameterValues" : [ ]
+}

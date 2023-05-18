@@ -1,0 +1,13 @@
+{
+  "uuid": "b7f7bb56-6434-4775-abcb-ba7b1df181d9",
+  "name": "AllureFeatureTest",
+  "children": [
+    "515a5d63-7eef-4af8-a762-1db7f5d3d767",
+    "ab95f9df-e65c-44d5-b976-aa5b540afad1",
+    "224faa37-86ff-4cbc-b7da-7265d2840873"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1683212382841,
+  "stop": 1683212382904
+}

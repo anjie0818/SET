@@ -1,0 +1,4 @@
+com/ceshiren/GradleTwoTest.java
+ com.ceshiren.GradleTwoTest
+com/ceshiren/GradleOneTest.java
+ com.ceshiren.GradleOneTest

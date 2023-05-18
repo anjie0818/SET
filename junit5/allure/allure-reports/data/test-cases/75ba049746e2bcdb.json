@@ -1,0 +1,83 @@
+{
+  "uid" : "75ba049746e2bcdb",
+  "name" : "method2()",
+  "fullName" : "org.study.demo.AllureLinkTest.method2",
+  "historyId" : "b709b8a75ec60281594ef43a48c8a32b",
+  "time" : {
+    "start" : 1683190446912,
+    "stop" : 1683190446914,
+    "duration" : 2
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.study.demo.AllureLinkTest]/[method:method2()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37902@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.study.demo.AllureLinkTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.study.demo.AllureLinkTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "method2"
+  }, {
+    "name" : "suite",
+    "value" : "org.study.demo.AllureLinkTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "动态链接",
+    "url" : "http://www.baidu.com"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce968da089b90d20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683189997485,
+        "stop" : 1683189997488,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "21e6ede33d3820a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683184353854,
+        "stop" : 1683184353857,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped", "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "75ba049746e2bcdb.json",
+  "parameterValues" : [ ]
+}

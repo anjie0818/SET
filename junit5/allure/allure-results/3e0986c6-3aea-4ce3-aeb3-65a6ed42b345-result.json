@@ -1,0 +1,67 @@
+{
+  "uuid": "3e0986c6-3aea-4ce3-aeb3-65a6ed42b345",
+  "historyId": "412acf681ea49fa4914a99b405bbffee",
+  "fullName": "org.study.demo.AllureLinkTest.method3",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:org.study.demo.AllureLinkTest]/[method:method3()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "org.study.demo.AllureLinkTest"
+    },
+    {
+      "name": "testClass",
+      "value": "org.study.demo.AllureLinkTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "method3"
+    },
+    {
+      "name": "suite",
+      "value": "org.study.demo.AllureLinkTest"
+    }
+  ],
+  "links": [
+    {
+      "name": "allure",
+      "url": "https://example.org/mylink/allure",
+      "type": "mylink"
+    },
+    {
+      "name": "https://example.org",
+      "type": "custom"
+    },
+    {
+      "name": "动态链接",
+      "url": "http://www.baidu.com"
+    }
+  ],
+  "name": "method3()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212382814,
+  "stop": 1683212382815
+}

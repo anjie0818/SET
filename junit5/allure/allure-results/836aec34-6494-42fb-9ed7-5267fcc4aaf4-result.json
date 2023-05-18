@@ -1,0 +1,63 @@
+{
+  "uuid": "836aec34-6494-42fb-9ed7-5267fcc4aaf4",
+  "historyId": "d923240f2e895c0874feac76424fa0ea",
+  "fullName": "org.study.demo.AllureAttachmentTest.method2ByAnno",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:org.study.demo.AllureAttachmentTest]/[method:method2ByAnno()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "org.study.demo.AllureAttachmentTest"
+    },
+    {
+      "name": "testClass",
+      "value": "org.study.demo.AllureAttachmentTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "method2ByAnno"
+    },
+    {
+      "name": "suite",
+      "value": "org.study.demo.AllureAttachmentTest"
+    }
+  ],
+  "links": [],
+  "name": "method2ByAnno()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "performedActions",
+      "source": "fc626a48-5813-4ee9-a293-79881c1412ce-attachment"
+    },
+    {
+      "name": "Page screenshot",
+      "source": "bd793e00-16d0-49ec-aacc-4afc8dacd804-attachment.jpg",
+      "type": "image/jpg"
+    }
+  ],
+  "parameters": [],
+  "start": 1683212383097,
+  "stop": 1683212383755
+}

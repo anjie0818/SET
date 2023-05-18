@@ -1,0 +1,80 @@
+{
+  "uid" : "82221a2df7433edc",
+  "name" : "test111()",
+  "fullName" : "nest.NestExampleTest$AuthorityManagment.test111",
+  "historyId" : "3ca38c28c2cb8574347e40e476047170",
+  "time" : {
+    "start" : 1683190447577,
+    "stop" : 1683190447579,
+    "duration" : 2
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:nest.NestExampleTest]/[nested-class:AuthorityManagment]/[method:test111()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37902@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "nest.NestExampleTest$AuthorityManagment"
+  }, {
+    "name" : "testClass",
+    "value" : "nest.NestExampleTest$AuthorityManagment"
+  }, {
+    "name" : "testMethod",
+    "value" : "test111"
+  }, {
+    "name" : "suite",
+    "value" : "nest.NestExampleTest.AuthorityManagment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d2c8810b90e88759",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683189998700,
+        "stop" : 1683189998722,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "cf0e7a533baf96c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683184354671,
+        "stop" : 1683184354672,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped", "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "82221a2df7433edc.json",
+  "parameterValues" : [ ]
+}

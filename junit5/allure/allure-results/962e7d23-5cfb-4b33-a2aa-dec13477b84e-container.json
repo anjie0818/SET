@@ -1,0 +1,15 @@
+{
+  "uuid": "962e7d23-5cfb-4b33-a2aa-dec13477b84e",
+  "name": "AllureLinkTest",
+  "children": [
+    "81cc170d-93ba-4042-b410-bbf86c520f6b",
+    "21375394-ed18-4995-a28c-6a96c40ebb19",
+    "3e0986c6-3aea-4ce3-aeb3-65a6ed42b345",
+    "dab068f7-f56f-4b04-a2cc-98bc3aa8838a",
+    "acbd4323-79a0-4092-bc7f-2c7d21db036e"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1683212382490,
+  "stop": 1683212382836
+}

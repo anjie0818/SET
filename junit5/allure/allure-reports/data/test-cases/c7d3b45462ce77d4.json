@@ -1,0 +1,80 @@
+{
+  "uid" : "c7d3b45462ce77d4",
+  "name" : "deleteUser()",
+  "fullName" : "nest.NestExampleTest$AuthorityManagment$Management$ManagementDelete.deleteUser",
+  "historyId" : "579ae4419b45a81d6e7d24d7a1243b67",
+  "time" : {
+    "start" : 1683190447591,
+    "stop" : 1683190447594,
+    "duration" : 3
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:nest.NestExampleTest]/[nested-class:AuthorityManagment]/[nested-class:Management]/[nested-class:ManagementDelete]/[method:deleteUser()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37902@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "nest.NestExampleTest$AuthorityManagment$Management$ManagementDelete"
+  }, {
+    "name" : "testClass",
+    "value" : "nest.NestExampleTest$AuthorityManagment$Management$ManagementDelete"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteUser"
+  }, {
+    "name" : "suite",
+    "value" : "nest.NestExampleTest.AuthorityManagment.Management.ManagementDelete"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e82426bb8696780a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683189998767,
+        "stop" : 1683189998797,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "be7cae8fe98580ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683184354685,
+        "stop" : 1683184354686,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped", "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c7d3b45462ce77d4.json",
+  "parameterValues" : [ ]
+}

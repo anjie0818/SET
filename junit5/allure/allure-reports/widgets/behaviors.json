@@ -1,0 +1,15 @@
+{
+  "total" : 22,
+  "items" : [ {
+    "uid" : "56d5d4b2cdaf3289ea9c171a1000e462",
+    "name" : "登录Epic",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

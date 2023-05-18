@@ -1,0 +1,83 @@
+{
+  "uid" : "c8aeab357649edf",
+  "name" : "method12()",
+  "fullName" : "org.study.demo.AllureSeverityTest.method12",
+  "historyId" : "1346169144aa6cb90ae03e1a1dadddef",
+  "time" : {
+    "start" : 1683190447132,
+    "stop" : 1683190447133,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.study.demo.AllureSeverityTest]/[method:method12()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37902@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.study.demo.AllureSeverityTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.study.demo.AllureSeverityTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "method12"
+  }, {
+    "name" : "suite",
+    "value" : "org.study.demo.AllureSeverityTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb4d83d3ba4163fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683189997856,
+        "stop" : 1683189997857,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a766e9b79ce1bf75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683184354192,
+        "stop" : 1683184354193,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped", "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c8aeab357649edf.json",
+  "parameterValues" : [ ]
+}

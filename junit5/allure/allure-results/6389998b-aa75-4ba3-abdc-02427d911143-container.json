@@ -1,0 +1,12 @@
+{
+  "uuid": "6389998b-aa75-4ba3-abdc-02427d911143",
+  "name": "AllureStepTest",
+  "children": [
+    "28025263-08bd-4a3f-91cd-7a877f26840f",
+    "d7541c27-6b9a-431e-8095-d091d8532be6"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1683212383784,
+  "stop": 1683212383812
+}

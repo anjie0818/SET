@@ -3,6 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Algorithm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Algorithm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5/hamcrest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5/hamcrest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5/junit5-basics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5/junit5-basics/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5/junit5-datadriven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/junit5/junit5-datadriven/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/junit5/junit5-practice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/junit5/junit5-practice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/junit5/my-allure-plugin/src/main/java" charset="UTF-8" />

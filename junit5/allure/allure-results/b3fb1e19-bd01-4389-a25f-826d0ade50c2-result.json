@@ -1,0 +1,64 @@
+{
+  "uuid": "b3fb1e19-bd01-4389-a25f-826d0ade50c2",
+  "historyId": "d0cccdf76657513351f521175932f676",
+  "fullName": "org.study.demo.AllureAttachmentTest.method1",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:org.study.demo.AllureAttachmentTest]/[method:method1()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "org.study.demo.AllureAttachmentTest"
+    },
+    {
+      "name": "testClass",
+      "value": "org.study.demo.AllureAttachmentTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "method1"
+    },
+    {
+      "name": "suite",
+      "value": "org.study.demo.AllureAttachmentTest"
+    }
+  ],
+  "links": [],
+  "name": "method1()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "My attachment",
+      "source": "55489adb-91d7-4c4d-b276-e7f073d941dd-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "add picture",
+      "source": "6ac75f03-6709-45cb-bacd-9c2a964f5368-attachment.png",
+      "type": "image/jpg"
+    }
+  ],
+  "parameters": [],
+  "start": 1683212383764,
+  "stop": 1683212383772
+}

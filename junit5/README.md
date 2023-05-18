@@ -1,17 +1,21 @@
+
+* todo 【顺便整理笔记】
+* 1、步骤：junit5
+  * 复习  【done】
+  * 官方文档阅读 【done】
+  * 源码分析【???】
+    * https://www.modb.pro/db/179607
+* 2、步骤：testng复习【done】
+* 3、步骤：：自动化测试实战——基于TestNG/JUnit/Robot Framework/Selenium
 * 疑问
-  * @Tag标签 分环境标签
   * junit4 -> testng -> junit5 什么区别 vs testng
     * 用法
     * 拓展性，二次开发
-  * 多环境如何执行
-  * ~~allure step可以传递参数吗？~~
-    * 可以，直接在方法添加注解@Step,pom文件配置argLine：aspectjweaver
-  * testinfo
-  * 学过的东西容易遗忘
 **目录 (Table of Contents)**
 [TOCM]
 [TOC]
 # Junit5
+> 官网：https://junit.org/junit5/docs/current/user-guide/
 ## 架构图
 ![](./images/junit5架构图.png)
 ## Junit5-basics
@@ -279,7 +283,7 @@ mvn clean test -DexcludedGroups="test"
 ```
 * 结合测试套件执行
 #### 5>自定义tag标签
-[CustomTagTest](./junit5-basics/src/test/java/org/study/demo/tag/custom/CustomTagTest.java)
+[CustomTag+Test](./junit5-basics/src/test/java/org/study/demo/tag/custom/CustomTagTest.java)
 ### 10.JUnit5 设置禁用测试用例
 >可以禁用测试类、也可以禁用测试方法
 * 使用场景
@@ -290,21 +294,20 @@ mvn clean test -DexcludedGroups="test"
 ![](./images/嵌套测试.png)
 [NestExampleTest](./junit5-basics/src/test/java/org/study/demo/nest/NestExampleTest.java)
 ### 12.Junit5 测试套件(Include/Exclude)
-[SelectClassTest](./junit5-basics/src/test/java/org/study/demo/suite/SelectClassTest.java)   
-[SelectPackagesTest](./junit5-basics/src/test/java/org/study/demo/suite/SelectPackagesTest.java)   
-[IncludePackagesTest](./junit5-basics/src/test/java/org/study/demo/suite/IncludePackagesTest.java)   
-[ExcludePackagesTest](./junit5-basics/src/test/java/org/study/demo/suite/ExcludePackagesTest.java)   
-[IncludeClassNamePatternsTest](./junit5-basics/src/test/java/org/study/demo/suite/IncludeClassNamePatternsTest.java)   
-[IncludeTagsTest](./junit5-basics/src/test/java/org/study/demo/suite/IncludeTagsTest.java)   
+[SelectClassTest](./junit5-basics/src/test/java/org/study/suite/SelectClassTest.java)   
+[SelectPackagesTest](./junit5-basics/src/test/java/org/study/suite/SelectPackagesTest.java)    
+[IncludePackagesTest](./junit5-basics/src/test/java/org/study/suite/IncludePackagesTest.java)   
+[ExcludePackagesTest](./junit5-basics/src/test/java/org/study/suite/ExcludePackagesTest.java)   
+[IncludeClassNamePatternsTest](./junit5-basics/src/test/java/org/study/suite/IncludeClassNamePatternsTest.java)   
+[IncludeTagsTest](./junit5-basics/src/test/java/org/study/suite/IncludeTagsTest.java)   
 ### 13.Junit5动态测试
 * @TestFactory实现
 * 没有beforeeach/beforeall概念
 * 返回DynamicTest集合
 [DynamicDemoTest](./junit5-basics/src/test/java/org/study/demo/dynamic/DynamicDemoTest.java)
 #### 实例：ShellTest+SumTest
-[ShellTest](./junit5-practice/src/test/java/org/study/practice/dynamic/ShellDynamicTest.java)
+[ShellTest](./junit5-practice/src/test/java/org/study/practice/dynamic/ShellDynamicTest.java)   
 [SumTest](./junit5-practice/src/test/java/org/study/practice/dynamic/SumDynamicTest.java)
-
 ## Junit5-调度执行
 ### 1.命令行执行
 #### 1>执行当前项目下的所有测试
@@ -371,10 +374,13 @@ mvn test -Dtest=包名.类名#方法名1+方法名2
 ```
 ## Junit5-并行测试
 ```properties
+#是否允许并行执行true/false
 junit.jupiter.execution.parallel.enabled = true
 
+# 说白了就是SAME_THREAD意味着单线程，而CONCURRENT意味着多线程。
+# 是否支持方法级别多线程same_thread/concurrent
 junit.jupiter.execution.parallel.mode.default = concurrent
-
+#是否支持类级别多线程same_thread/concurrent
 junit.jupiter.execution.parallel.mode.classes.default = same_thread
 
 junit.jupiter.execution.parallel.config.strategy=fixed
@@ -542,7 +548,8 @@ custom-logo.svg 为默认logo，自行更新logo即可，有需求的同学也�
 }
 ```
 ## 实战练习
-[practice](./junit5-practice)
+* TestInfo testInfo
+* [practice](./junit5-practice)
 ## other
 git config --global http.proxy "localhost:port"
 git config --global --unset http.proxy

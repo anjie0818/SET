@@ -1,0 +1,53 @@
+{
+  "uuid": "95241d69-f7d0-4902-ae6f-961c5e0f8bba",
+  "historyId": "579ae4419b45a81d6e7d24d7a1243b67",
+  "fullName": "nest.NestExampleTest$AuthorityManagment$Management$ManagementDelete.deleteUser",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:nest.NestExampleTest]/[nested-class:AuthorityManagment]/[nested-class:Management]/[nested-class:ManagementDelete]/[method:deleteUser()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "nest.NestExampleTest$AuthorityManagment$Management$ManagementDelete"
+    },
+    {
+      "name": "testClass",
+      "value": "nest.NestExampleTest$AuthorityManagment$Management$ManagementDelete"
+    },
+    {
+      "name": "testMethod",
+      "value": "deleteUser"
+    },
+    {
+      "name": "suite",
+      "value": "nest.NestExampleTest.AuthorityManagment.Management.ManagementDelete"
+    }
+  ],
+  "links": [],
+  "name": "deleteUser()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212383870,
+  "stop": 1683212383871
+}

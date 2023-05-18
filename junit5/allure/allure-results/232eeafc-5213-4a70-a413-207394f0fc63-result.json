@@ -1,0 +1,80 @@
+{
+  "uuid": "232eeafc-5213-4a70-a413-207394f0fc63",
+  "historyId": "9fee0fa406fdaa388296d1ca881f3440",
+  "fullName": "org.study.demo.AllureStepTest1.annotatedStepTest",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:org.study.demo.AllureStepTest1]/[method:annotatedStepTest()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "org.study.demo.AllureStepTest1"
+    },
+    {
+      "name": "testClass",
+      "value": "org.study.demo.AllureStepTest1"
+    },
+    {
+      "name": "testMethod",
+      "value": "annotatedStepTest"
+    },
+    {
+      "name": "suite",
+      "value": "org.study.demo.AllureStepTest1"
+    }
+  ],
+  "links": [],
+  "name": "annotatedStepTest()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [
+    {
+      "name": "Parent annotated step with parameter [local value]",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Nested annotated step with global parameter [global value]",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1683212383045,
+          "stop": 1683212383046
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "parameter",
+          "value": "local value"
+        }
+      ],
+      "start": 1683212383042,
+      "stop": 1683212383046
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212383005,
+  "stop": 1683212383046
+}

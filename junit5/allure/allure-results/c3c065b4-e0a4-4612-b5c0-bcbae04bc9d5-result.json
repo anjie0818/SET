@@ -1,0 +1,53 @@
+{
+  "uuid": "c3c065b4-e0a4-4612-b5c0-bcbae04bc9d5",
+  "historyId": "3e3271769374b69e762623bd25c932b3",
+  "fullName": "nest.NestExampleTest.test222",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:nest.NestExampleTest]/[method:test222()]"
+    },
+    {
+      "name": "host",
+      "value": "anjieMBP"
+    },
+    {
+      "name": "thread",
+      "value": "41095@anjieMBP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit-platform"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "package",
+      "value": "nest.NestExampleTest"
+    },
+    {
+      "name": "testClass",
+      "value": "nest.NestExampleTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "test222"
+    },
+    {
+      "name": "suite",
+      "value": "nest.NestExampleTest"
+    }
+  ],
+  "links": [],
+  "name": "test222()",
+  "status": "passed",
+  "stage": "finished",
+  "description": "",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683212383820,
+  "stop": 1683212383821
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 1. vue 引入 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <!-- 2. 定义一个容器，给容器标注 id，方便后面操作 -->
+    <div id="app">{{message}}</div>
+</body>
+</html>
+<script>
+    // 实例化 vue
+    var vm = new Vue({
+        // 需要传入对象
+        // 指定挂载元素
+        el: "#app",
+        // 定义数据
+        data: {
+            message: "Hello World!"
+        }
+    })
+</script>

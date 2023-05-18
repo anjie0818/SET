@@ -1,0 +1,12 @@
+{
+  "uuid": "ee2d8c6b-a2d2-4cde-8f53-2c0362e07450",
+  "name": "AllureSeverityTest",
+  "children": [
+    "98032412-cfe5-4f4d-ba2e-f28c930f8b08",
+    "99748ada-1816-4d3d-aa90-d1a3c5fb8019"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1683212383052,
+  "stop": 1683212383071
+}

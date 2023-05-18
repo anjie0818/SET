@@ -1,0 +1,58 @@
+{
+  "uid" : "dd46f0904f5f3018",
+  "name" : "测试别名",
+  "fullName" : "org.study.demo.AllureDisplayNameTest.displayNameTest",
+  "historyId" : "ee8ae91d82f9fbb97a932c7badf48de0",
+  "time" : {
+    "start" : 1683189997666,
+    "stop" : 1683189997667,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.study.demo.AllureDisplayNameTest]/[method:displayNameTest()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37599@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.study.demo.AllureDisplayNameTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.study.demo.AllureDisplayNameTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "displayNameTest"
+  }, {
+    "name" : "suite",
+    "value" : "org.study.demo.AllureDisplayNameTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd46f0904f5f3018.json",
+  "parameterValues" : [ ]
+}

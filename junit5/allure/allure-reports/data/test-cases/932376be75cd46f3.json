@@ -1,0 +1,80 @@
+{
+  "uid" : "932376be75cd46f3",
+  "name" : "managementLogin()",
+  "fullName" : "nest.NestExampleTest$AuthorityManagment$Management.managementLogin",
+  "historyId" : "b381ab1fc346f565c986da7208772845",
+  "time" : {
+    "start" : 1683190447584,
+    "stop" : 1683190447586,
+    "duration" : 2
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:nest.NestExampleTest]/[nested-class:AuthorityManagment]/[nested-class:Management]/[method:managementLogin()]"
+  }, {
+    "name" : "host",
+    "value" : "anjieMBP"
+  }, {
+    "name" : "thread",
+    "value" : "37902@anjieMBP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "nest.NestExampleTest$AuthorityManagment$Management"
+  }, {
+    "name" : "testClass",
+    "value" : "nest.NestExampleTest$AuthorityManagment$Management"
+  }, {
+    "name" : "testMethod",
+    "value" : "managementLogin"
+  }, {
+    "name" : "suite",
+    "value" : "nest.NestExampleTest.AuthorityManagment.Management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c1a09dadebbcb0e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683189998729,
+        "stop" : 1683189998730,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "23b68c624c0a0a6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683184354678,
+        "stop" : 1683184354679,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped", "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "932376be75cd46f3.json",
+  "parameterValues" : [ ]
+}

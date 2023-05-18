@@ -1,0 +1,75 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/SchemaDemo",
+    "definitions": {
+      "SchemaDemo": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "args": {
+            "$ref": "#/definitions/Args"
+          },
+          "headers": {
+            "$ref": "#/definitions/Headers"
+          },
+          "origin": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "qt-uri-protocols": [
+              "https"
+            ]
+          }
+        },
+        "required": [
+          "args",
+          "headers",
+          "origin",
+          "url",
+          "hogwarts"
+        ],
+        "title": "SchemaDemo"
+      },
+      "Args": {
+        "type": "object",
+        "additionalProperties": false,
+        "title": "Args"
+      },
+      "Headers": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "Accept": {
+            "type": "string"
+          },
+          "Accept-Encoding": {
+            "type": "string"
+          },
+          "Host": {
+            "type": "string"
+          },
+          "User-Agent": {
+            "type": "string"
+          },
+          "X-Forwarded-Host": {
+            "type": "string"
+          },
+          "X-Scheme": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Accept",
+          "Accept-Encoding",
+          "Host",
+          "User-Agent",
+          "X-Forwarded-Host",
+          "X-Scheme"
+        ],
+        "title": "Headers"
+      }
+    }
+  }
+  

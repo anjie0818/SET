@@ -1,0 +1,12 @@
+{
+  "uuid": "51fa7402-d7d2-43be-a73a-4f9a82a23ac0",
+  "name": "AllureAttachmentTest",
+  "children": [
+    "836aec34-6494-42fb-9ed7-5267fcc4aaf4",
+    "b3fb1e19-bd01-4389-a25f-826d0ade50c2"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1683212383074,
+  "stop": 1683212383775
+}
