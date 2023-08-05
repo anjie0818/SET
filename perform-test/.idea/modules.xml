@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/perf_tool/newbee-mall-api/newbee-mall-api/newbee-mall-api.iml" filepath="$PROJECT_DIR$/perf_tool/newbee-mall-api/newbee-mall-api/newbee-mall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/perform-test.iml" filepath="$PROJECT_DIR$/.idea/perform-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perf_monitor/jmeter-springboot-server/springboot-mybatis-redis.iml" filepath="$PROJECT_DIR$/perf_monitor/jmeter-springboot-server/springboot-mybatis-redis.iml" />
+    </modules>
+  </component>
+</project>
