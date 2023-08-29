@@ -14,6 +14,7 @@
 ## Jmeter压测监控平台
 [跳转](../perf_tool/monitor/README.md)
 ## 性能监控系统搭建
+![](../images/GPE.webp)
 * Prometheus
 * node-exporter
 * Grafana

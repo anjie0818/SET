@@ -1,5 +1,15 @@
+## 如何进行监控设计
+[性能监控-监控设计](./性能监控-监控设计.md)
 ## 性能监控-服务端统计工具-L1
-[性能监控-服务端统计工具-L1.md](./性能监控-服务端统计工具-L1.md)
+[性能监控-服务端统计工具-L1](./性能监控-服务端统计工具-L1.md)
+## 性能监控-Prometheus监控系统-L2
+[性能监控-Prometheus监控系统-L2](./性能监控-Prometheus监控系统-L2.md)
+## 性能监控-Nginx与数据库-L3
+[性能监控-Nginx与数据库-L3](./性能监控-Nginx与数据库-L3.md)
+## 性能监控-JVM/队列/缓存-L4
+[性能监控-JVM/队列/缓存-L4](./性能监控-JVM_队列_缓存-L4.md)
+## 性能监控-分布式性能监控系统SkyWalking-L5
+[性能监控-分布式性能监控系统SkyWalking-L5.md](./性能监控-分布式性能监控系统SkyWalking-L5.md)
 ## 【Restful 服务性能监控实战】
 > 需要先安装jdk工具包：yum install java-*-openjdk-devel
 ### 被监控程序搭建
@@ -47,9 +57,6 @@
   * ![](../images/mem_analyzer.png)
 * 对比分析结果查看源码
   * ![](../images/mem_src.png)
-## 性能监控-Prometheus监控系统-L2
-## 性能监控-Nginx与数据库-L3
-## 性能监控-JVM/队列/缓存-L4
 ## 【电商系统性能监控实战】
 ### 搭建启用域名支持的电商平台
 #### step1:配置域名
@@ -162,11 +169,4 @@ CPU：系统负载，CPU使用占比，运行时间
 JVM：加载类，线程使用，堆内存，GC
 网络：带宽占比，上下行速率
 [jmx跳转](../perf_tool/newbee-mall-api/newbee-mall-api/jmx/newbee_stress_complex_domain.jmx)
-## 性能监控-分布式性能监控系统SkyWalking-L5
-[性能监控-分布式性能监控系统SkyWalking-L5.md](./性能监控-分布式性能监控系统SkyWalking-L5.md)
-## 【基于SkyWalking的电商平台性能监控实战】
-* 部署SkyWalking全链路追踪平台
-* Java Agent监控性能追踪实战
-* NodeJS Agent监控性能追踪实战
-* Python Agent监控性能追踪实战
-* SkyWalking告警定制实战
+
